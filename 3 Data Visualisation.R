@@ -37,4 +37,11 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, size = class))
 
-#cont 3.3.1 exersizes
+######## 3.3.1 exersize section #####
+
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy), color = "red")
+
+?geom_point
+
+?mpg
